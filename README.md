@@ -1,7 +1,7 @@
 # manual-tags
 
 ### manual-tag-1
-`{'dataType': 'manual_tag',
+`insert into iroads (key,value) values ("manual-tag-1",{'dataType': 'manual_tag',
  'journeyID': '3571570954310421538357557745manual',
  'journeyName': 'Manual_Bandaragama Road Weralugas Junction',
  'key': 'manual-tag-1',
@@ -62,4 +62,4 @@
           {'lat': 6.7281111, 'lon': 79.9053292, 'tagType': 'A'},
           {'lat': 6.72700226, 'lon': 79.90358435, 'tagType': 'A'},
           {'lat': 6.7270225, 'lon': 79.9033504, 'tagType': 'A'},
-          {'lat': 6.72713658, 'lon': 79.90191479, 'tagType': 'A'}]}`
+          {'lat': 6.72713658, 'lon': 79.90191479, 'tagType': 'A'}]}) returning *;`
